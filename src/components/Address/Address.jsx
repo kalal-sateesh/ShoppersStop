@@ -47,10 +47,7 @@ const Address = () => {
           Order Placed Successfully!!!
         </div>
       )}
-      <div
-        className="mb-4 mt-5 d-inline-block p-4 border border-2 text-black bg-white rounded"
-        style={{ width: "450px", height: "400px"}}
-      >
+      <div className="mb-4 mt-5 d-inline-block p-4 border border-2 text-black bg-white rounded">
         <Row className="mt-3 fs-5">
           <Col>
             <label htmlFor="street">Street/Village</label>
@@ -105,7 +102,9 @@ const Address = () => {
             </Button>
           </Col>
         </Row>
-        {isLoader && <Spinner animation="border" variant="primary" className="mt-3"/>}
+        {isLoader && (
+          <Spinner animation="border" variant="primary" className="mt-3" />
+        )}
         {errorMsg && (
           <Row className="mt-3 text-danger fw-bold fs-5">
             <p className="fs-5">{errorMsg}</p>
