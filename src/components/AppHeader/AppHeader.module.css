@@ -1,0 +1,102 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+.nav {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.navActive {
+  color: rgb(255, 8, 8);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nav:hover {
+  color: rgb(250, 3, 3);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.shop {
+  color: black;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.shop:hover {
+  color: black;
+}
+
+@media screen and (max-width: 1230px) {
+  .nav {
+    font-size: 14px;
+  }
+  .navActive {
+    font-size: 14px;
+  }
+  .nav:hover {
+    font-size: 14px;
+  }
+  .shop {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .nav {
+    font-size: 12px;
+  }
+  .navActive {
+    font-size: 12px;
+  }
+  .nav:hover {
+    font-size: 12px;
+  }
+  .shop {
+    font-size: 15px;
+  }
+}
+/* @media screen and (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+  .navActive {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .shop {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .shop {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .shop {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .hamburgur {
+    font-size: 15px;
+  }
+} */

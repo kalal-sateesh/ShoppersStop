@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.div {
+  width: 650px;
+  height: 600px;
+  overflow-y: scroll;
+}
+.details {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  margin-top: 10px;
+}
+.summery {
+  width: 550px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+}
+.image {
+  background-color: white;
+  width: 30%;
+  height: 100%;
+}
+.content {
+  background-color: rgb(254, 254, 255);
+  width: 70%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  color: black;
+}
+.head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  height: 200px;
+  overflow: hidden;
+}
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.quantity {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.quantity button {
+  width: 35px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.quantity button:hover {
+  background-color: #d3145a;
+}
+.remove {
+  margin-top: 30px;
+}
+.remove button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  padding: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.remove button:hover {
+  background-color: #d3145a;
+}
+.total {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sum {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+.TP {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.AP {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #d3145a;
+}
+.free {
+  color: rgb(2, 199, 2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.btn {
+  width: 100%;
+  height: 10%;
+  margin-top: 20px;
+}
+.btn button {
+  width: 80%;
+  height: 100%;
+  background-color: #d3145a;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cart {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+.cart1 {
+  margin-top: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.shopNow {
+  width: 150px;
+  height: 50px;
+  background-color: #99cc33;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.alert {
+  z-index: 3;
+  width: 400px;
+  height: 60px;
+  margin: auto;
+  position: fixed;
+  top: 55px;
+  right: 0%;
+  left: 0%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #01b31e;
+}

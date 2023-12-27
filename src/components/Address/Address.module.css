@@ -1,0 +1,15 @@
+.alert {
+  z-index: 2;
+  width: 400px;
+  height: 60px;
+  margin: auto;
+  position: fixed;
+  top: 55px;
+  right: 0%;
+  left: 0%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #01b31e;
+}

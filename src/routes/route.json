@@ -1,0 +1,14 @@
+{
+    "HOME":"/",
+    "MENS'S_CLOTHING":"mes-clothing",
+    "WOME'S_CLOTHING":"womens-clothing",
+    "ELECTRONICS":"electronics",
+    "JWELLERY":"jwellery",
+    "CONTACT_US":"contact-us",
+    "CART":"cart",
+    "ABOUT":"about",
+    "PRODUCTS":"products",
+    "LOGIN":"login",
+    "SIGNUP":"signup",
+    "ADDRESS":"address"
+}
