@@ -142,6 +142,7 @@
   background-color: white;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
 }
 .shopNow {
@@ -169,4 +170,16 @@
   font-weight: bold;
   color: white;
   background-color: #01b31e;
+}
+@media screen and (max-width:330px) {
+  .price {
+    font-size: 15px;
+  }
+  .quantity {
+    font-size: 12px;
+  }
+  .remove button {
+    width: 150px;
+    font-size: 15px;
+  }
 }

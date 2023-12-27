@@ -43,60 +43,31 @@
   color: black;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1260px) {
   .nav {
-    font-size: 14px;
+    font-size: 13px;
   }
   .navActive {
-    font-size: 14px;
+    font-size: 13px;
   }
   .nav:hover {
-    font-size: 14px;
+    font-size: 13px;
   }
   .shop {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 1090px) {
   .nav {
-    font-size: 12px;
+    font-size: 11px;
   }
   .navActive {
-    font-size: 12px;
+    font-size: 11px;
   }
   .nav:hover {
-    font-size: 12px;
+    font-size: 11px;
   }
   .shop {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
-/* @media screen and (max-width: 1000px) {
-  .nav {
-    display: none;
-  }
-  .navActive {
-    display: none;
-  }
-  .button {
-    display: none;
-  }
-  .shop {
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 350px) {
-  .shop {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 300px) {
-  .shop {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 280px) {
-  .hamburgur {
-    font-size: 15px;
-  }
-} */

@@ -58,7 +58,6 @@ const Signup = () => {
   return (
     <div
       className="mt-4 mb-4 d-inline-block p-4 border border-2 text-black bg-white rounded"
-      style={{ width: "500px", height: "450px" }}
     >
       <Row className="mt-3 fs-5">
         <Col>

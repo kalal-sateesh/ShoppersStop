@@ -33,7 +33,7 @@ const Product = () => {
       return (
         <>
           <div className={styles.img}>
-            <img src={ele.image} alt="IMAGE" width="600px" height="600px" />
+            <img src={ele.image} alt="IMAGE" width="100%" height="100%" />
           </div>
           <div className={styles.content}>
             <div className={styles.head}>{ele.title}</div>

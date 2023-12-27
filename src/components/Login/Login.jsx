@@ -58,10 +58,7 @@ const Login = () => {
   };
 
   return (
-    <div
-      className="mt-4 mb-4 d-inline-block p-4 border border-2 text-black bg-white rounded"
-      style={{ width: "420px", height: "350px" }}
-    >
+    <div className="mt-4 mb-4 d-inline-block p-4 border border-2 text-black bg-white rounded">
       <Row className="mt-3 fs-5">
         <Col>
           <label htmlFor="username">User Name</label>

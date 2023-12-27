@@ -99,8 +99,8 @@ const Cart = () => {
             <div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjlt1wSnX_U3WQUVYvOpqBw1glQyRLpWCVaQ&usqp=CAU"
-                width="350px"
-                height="400px"
+                width="100%"
+                height="100%"
               ></img>
             </div>
             <div className={styles.cart2}>
